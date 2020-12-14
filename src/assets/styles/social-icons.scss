@@ -1,0 +1,9 @@
+@mixin instagram-icon($size) {
+    width: $size;
+    height: $size;
+    display: inline-block;
+    background-image: url('../images/instagram-icon.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

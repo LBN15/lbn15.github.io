@@ -1,0 +1,8 @@
+@mixin colorLink($color, $hover) {
+    a:link, a:visited {
+        color: $color;
+    }
+    a:link:hover, a:visited:hover {
+        color: $hover;
+    }
+}

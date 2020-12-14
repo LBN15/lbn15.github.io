@@ -120,9 +120,16 @@
               "devServerTarget": "LinaPage:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "LinaPage"
+  "defaultProject": "LinaPage",
+  "cli": {
+    "analytics": "dc12da2a-3f2e-49f5-ba59-d0e5d82ec2ac"
+  }
 }
